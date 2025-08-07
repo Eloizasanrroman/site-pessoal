@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Pessoal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  </style>
 </head>
 <style>
     body {
@@ -22,15 +26,18 @@
         padding-bottom: 20px;
     }
 
+
     header h1 {
         font-size: 40px;
         margin-bottom: 30px;
+        font-family: 'Dancing Script', sans-serif;
     }
 
     header p {
         font-size: 20px;
-        font-family:monospace;
+        font-family:monospace; 
     }
+
     main {
         padding-top: 20px;
         width: 400px;
@@ -103,6 +110,7 @@
     <div class= "buttons"> 
         <button class="buttons-visualizacao" onclick="mudarGrade()">Visualização de Grade</button>
         <button class="buttons-visualizacao" onclick="mudarLista()">Vizualização de Lista</button>
+        <button class="buttons-visualizacao" onclick="mudarFundo()">Fundo</button>
     </div>
 
     <main id="principal">
@@ -124,6 +132,8 @@
                     <a href="https://aws.amazon.com/pt/what-is/iot/" target="_blank">IOT</a>
                 </li>
             </ul>
+                     <img src="https://mundorh.com.br/wp-content/uploads/2021/08/profissao-futuro.jpg" alt="Descrição da imagem 1" width="200" height="150" title="Clique para mais informações">
+        
         </section>
 
         <section>
@@ -144,6 +154,8 @@
                     <a href="https://www.apoia.com.br/pt/cursos/cursos-de-varejo/curso-de-levantamento-de-requisitos-1f682/" target="_blank">Levantamento de Requisitos</a>
                 </li>
             </ul>
+                    <img src="https://www.catho.com.br/carreira-sucesso/wp-content/uploads/sites/3/2022/07/diferenca-ti-e-si.jpg" alt="Descrição da imagem 2" width="200" height="100" title="Clique para mais informações">
+                
         </section>
 
         <section>
@@ -164,6 +176,8 @@
                     <a href="https://www.dreamiestreats.co.uk/did-you-know/why-playtime-important-for-cats" target="_blank">Brincar com os meus gatinhos</a>
                 </li>
             </ul>
+                    <img src="https://img.freepik.com/premium-vector/woman-reading-book-person-spends-time-reading-character-engaged-self-development-employee_1002658-4142.jpg" alt="Descrição da imagem 3" width="200" height="150" title="Clique para mais informações">
+                
         </section>
 
         <section>
@@ -181,6 +195,8 @@
                     <a href="https://github.com/Eloizasanrroman/site-pessoal" target="_blank">Github</a>
                 </li>
             </ul>
+                    <img src="https://img.freepik.com/vetores-premium/telefone-de-discagem-retro-em-cor-rosa-desenho-de-contorno-de-telefone-de-fio-vintage-dispositivo-eletronico-antigo-ilustracao-vetorial_758746-828.jpg?semt=ais_hybrid&w=740&q=80" alt="Descrição da imagem 3" width="200" height="200" title="Clique para mais informações">
+                
         </section>
 
     </main>
@@ -197,6 +213,9 @@
     function mudarLista () {
         const principal = document.getElementById('principal')
         principal.classList.remove('modo-grade')
+    }
+    function mudarFundo () {
+        
     }
 </script>
 </html>
